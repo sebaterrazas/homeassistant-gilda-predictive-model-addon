@@ -1,0 +1,18 @@
+name: "Modelo Predictivo de Consumo Eléctrico"
+version: "1.0"
+slug: "predictive_model"
+description: "Home Assistant add-on el cuál corre un modelo predictivo de consumo eléctrico"
+arch:
+  - amd64
+  - armv7
+  - armhf
+  - aarch64
+startup: "application"
+boot: "manual"
+hassio_api: true
+hassio_role: "default"
+homeassistant_api: true
+host_network: true
+options: {}
+schema: {}
+
